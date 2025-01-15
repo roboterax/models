@@ -15,7 +15,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/base_link.STL" />
+        <mesh filename="../meshes/base_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -24,7 +24,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/base_link.STL" />
+        <mesh filename="../meshes/base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -37,7 +37,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/neck_yaw_link.STL" />
+        <mesh filename="../meshes/neck_yaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -46,7 +46,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/neck_yaw_link.STL" />
+        <mesh filename="../meshes/neck_yaw_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -67,7 +67,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/neck_pitch_link.STL" />
+        <mesh filename="../meshes/neck_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -76,7 +76,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/neck_pitch_link.STL" />
+        <mesh filename="../meshes/neck_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -97,7 +97,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/mic_link.STL" />
+        <mesh filename="../meshes/mic_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 0.549019607843137 0 1" />
@@ -106,7 +106,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/mic_link.STL" />
+        <mesh filename="../meshes/mic_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -125,7 +125,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/head_rs_link.STL" />
+        <mesh filename="../meshes/head_rs_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.25098 0.25098 0.25098 1" />
@@ -134,7 +134,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/head_rs_link.STL" />
+        <mesh filename="../meshes/head_rs_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -153,7 +153,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_arm_base_link.STL" />
+        <mesh filename="../meshes/left_arm_base_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -162,7 +162,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_arm_base_link.STL" />
+        <mesh filename="../meshes/left_arm_base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -182,7 +182,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_shoulder_pitch_link.STL" />
+        <mesh filename="../meshes/left_shoulder_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -191,7 +191,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_shoulder_pitch_link.STL" />
+        <mesh filename="../meshes/left_shoulder_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -212,7 +212,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_shoulder_roll_link.STL" />
+        <mesh filename="../meshes/left_shoulder_roll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -221,7 +221,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_shoulder_roll_link.STL" />
+        <mesh filename="../meshes/left_shoulder_roll_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -242,7 +242,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_arm_yaw_link.STL" />
+        <mesh filename="../meshes/left_arm_yaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -251,7 +251,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_arm_yaw_link.STL" />
+        <mesh filename="../meshes/left_arm_yaw_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -272,7 +272,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_elbow_pitch_link.STL" />
+        <mesh filename="../meshes/left_elbow_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -281,7 +281,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_elbow_pitch_link.STL" />
+        <mesh filename="../meshes/left_elbow_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -302,7 +302,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_elbow_yaw_link.STL" />
+        <mesh filename="../meshes/left_elbow_yaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -311,7 +311,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_elbow_yaw_link.STL" />
+        <mesh filename="../meshes/left_elbow_yaw_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -332,7 +332,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_wrist_pitch_link.STL" />
+        <mesh filename="../meshes/left_wrist_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -341,7 +341,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_wrist_pitch_link.STL" />
+        <mesh filename="../meshes/left_wrist_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -362,7 +362,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_wrist_roll_link.STL" />
+        <mesh filename="../meshes/left_wrist_roll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -371,7 +371,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_wrist_roll_link.STL" />
+        <mesh filename="../meshes/left_wrist_roll_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -392,7 +392,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_base_link.STL" />
+        <mesh filename="../meshes/left_hand_base_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 0.549019607843137 0 1" />
@@ -401,7 +401,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_base_link.STL" />
+        <mesh filename="../meshes/left_hand_base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -420,7 +420,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_ee_link.STL" />
+        <mesh filename="../meshes/left_hand_ee_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -429,7 +429,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_ee_link.STL" />
+        <mesh filename="../meshes/left_hand_ee_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -455,7 +455,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_arm_base_link.STL" />
+        <mesh filename="../meshes/right_arm_base_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -464,7 +464,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_arm_base_link.STL" />
+        <mesh filename="../meshes/right_arm_base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -483,7 +483,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_shoulder_pitch_link.STL" />
+        <mesh filename="../meshes/right_shoulder_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -492,7 +492,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_shoulder_pitch_link.STL" />
+        <mesh filename="../meshes/right_shoulder_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -513,7 +513,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_shoulder_roll_link.STL" />
+        <mesh filename="../meshes/right_shoulder_roll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -522,7 +522,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_shoulder_roll_link.STL" />
+        <mesh filename="../meshes/right_shoulder_roll_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -543,7 +543,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_arm_yaw_link.STL" />
+        <mesh filename="../meshes/right_arm_yaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -552,7 +552,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_arm_yaw_link.STL" />
+        <mesh filename="../meshes/right_arm_yaw_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -573,7 +573,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_elbow_pitch_link.STL" />
+        <mesh filename="../meshes/right_elbow_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -582,7 +582,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_elbow_pitch_link.STL" />
+        <mesh filename="../meshes/right_elbow_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -603,7 +603,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_elbow_yaw_link.STL" />
+        <mesh filename="../meshes/right_elbow_yaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -612,7 +612,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_elbow_yaw_link.STL" />
+        <mesh filename="../meshes/right_elbow_yaw_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -633,7 +633,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_wrist_pitch_link.STL" />
+        <mesh filename="../meshes/right_wrist_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -642,7 +642,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_wrist_pitch_link.STL" />
+        <mesh filename="../meshes/right_wrist_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -663,7 +663,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_wrist_roll_link.STL" />
+        <mesh filename="../meshes/right_wrist_roll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -672,7 +672,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_wrist_roll_link.STL" />
+        <mesh filename="../meshes/right_wrist_roll_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -693,7 +693,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_base_link.STL" />
+        <mesh filename="../meshes/right_hand_base_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 0.549019607843137 0 1" />
@@ -702,7 +702,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_base_link.STL" />
+        <mesh filename="../meshes/right_hand_base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -721,7 +721,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_ee_link.STL" />
+        <mesh filename="../meshes/right_hand_ee_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 0.549019607843137 0 1" />
@@ -730,7 +730,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_ee_link.STL" />
+        <mesh filename="../meshes/right_hand_ee_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -757,7 +757,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/waist_base_link.STL" />
+        <mesh filename="../meshes/waist_base_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -766,7 +766,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/waist_base_link.STL" />
+        <mesh filename="../meshes/waist_base_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -785,7 +785,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/waist_pitch_link.STL" />
+        <mesh filename="../meshes/waist_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -794,7 +794,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/waist_pitch_link.STL" />
+        <mesh filename="../meshes/waist_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -815,7 +815,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/waist_roll_link.STL" />
+        <mesh filename="../meshes/waist_roll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -824,7 +824,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/waist_roll_link.STL" />
+        <mesh filename="../meshes/waist_roll_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -845,7 +845,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/waist_yaw_link.STL" />
+        <mesh filename="../meshes/waist_yaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -854,7 +854,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/waist_yaw_link.STL" />
+        <mesh filename="../meshes/waist_yaw_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -875,7 +875,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hip_roll_link.STL" />
+        <mesh filename="../meshes/left_hip_roll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -884,7 +884,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hip_roll_link.STL" />
+        <mesh filename="../meshes/left_hip_roll_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -905,7 +905,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hip_yaw_link.STL" />
+        <mesh filename="../meshes/left_hip_yaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -914,7 +914,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hip_yaw_link.STL" />
+        <mesh filename="../meshes/left_hip_yaw_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -935,7 +935,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hip_pitch_link.STL" />
+        <mesh filename="../meshes/left_hip_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -944,7 +944,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hip_pitch_link.STL" />
+        <mesh filename="../meshes/left_hip_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -965,7 +965,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_knee_link.STL" />
+        <mesh filename="../meshes/left_knee_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -974,7 +974,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_knee_link.STL" />
+        <mesh filename="../meshes/left_knee_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -995,7 +995,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_ankle_pitch_link.STL" />
+        <mesh filename="../meshes/left_ankle_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1004,7 +1004,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_ankle_pitch_link.STL" />
+        <mesh filename="../meshes/left_ankle_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1025,7 +1025,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_ankle_roll_link.STL" />
+        <mesh filename="../meshes/left_ankle_roll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1034,7 +1034,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_ankle_roll_link.STL" />
+        <mesh filename="../meshes/left_ankle_roll_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1056,7 +1056,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hip_roll_link.STL" />
+        <mesh filename="../meshes/right_hip_roll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -1065,7 +1065,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hip_roll_link.STL" />
+        <mesh filename="../meshes/right_hip_roll_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1086,7 +1086,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hip_yaw_link.STL" />
+        <mesh filename="../meshes/right_hip_yaw_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -1095,7 +1095,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hip_yaw_link.STL" />
+        <mesh filename="../meshes/right_hip_yaw_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1116,7 +1116,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hip_pitch_link.STL" />
+        <mesh filename="../meshes/right_hip_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -1125,7 +1125,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hip_pitch_link.STL" />
+        <mesh filename="../meshes/right_hip_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1146,7 +1146,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_knee_link.STL" />
+        <mesh filename="../meshes/right_knee_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -1155,7 +1155,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_knee_link.STL" />
+        <mesh filename="../meshes/right_knee_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1176,7 +1176,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_ankle_pitch_link.STL" />
+        <mesh filename="../meshes/right_ankle_pitch_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -1185,7 +1185,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_ankle_pitch_link.STL" />
+        <mesh filename="../meshes/right_ankle_pitch_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1206,7 +1206,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_ankle_roll_link.STL" />
+        <mesh filename="../meshes/right_ankle_roll_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.75294 0.75294 0.75294 1" />
@@ -1215,7 +1215,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_ankle_roll_link.STL" />
+        <mesh filename="../meshes/right_ankle_roll_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1236,7 +1236,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/base_rs_link.STL" />
+        <mesh filename="../meshes/base_rs_link.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1245,7 +1245,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/base_rs_link.STL" />
+        <mesh filename="../meshes/base_rs_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1279,7 +1279,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_link.STL" />
+        <mesh filename="../meshes/left_hand_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
@@ -1288,7 +1288,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_link.STL" />
+        <mesh filename="../meshes/left_hand_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1312,7 +1312,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_thumb_bend_link.STL" />
+        <mesh filename="../meshes/left_hand_thumb_bend_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
@@ -1321,7 +1321,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_thumb_bend_link.STL" />
+        <mesh filename="../meshes/left_hand_thumb_bend_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1342,7 +1342,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_thumb_rota_link1.STL" />
+        <mesh filename="../meshes/left_hand_thumb_rota_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1351,7 +1351,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_thumb_rota_link1.STL" />
+        <mesh filename="../meshes/left_hand_thumb_rota_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1372,7 +1372,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_thumb_rota_link2.STL" />
+        <mesh filename="../meshes/left_hand_thumb_rota_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.384313725490196 0.384313725490196 0.384313725490196 1" />
@@ -1381,7 +1381,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_thumb_rota_link2.STL" />
+        <mesh filename="../meshes/left_hand_thumb_rota_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1402,7 +1402,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_thumb_rota_tip.STL" />
+        <mesh filename="../meshes/left_hand_thumb_rota_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -1411,7 +1411,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_thumb_rota_tip.STL" />
+        <mesh filename="../meshes/left_hand_thumb_rota_tip.STL" />
       </geometry>
     </collision>
   </link>
@@ -1430,7 +1430,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_index_bend_link.STL" />
+        <mesh filename="../meshes/left_hand_index_bend_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.988235294117647 0.737254901960784 0.517647058823529 1" />
@@ -1439,7 +1439,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_index_bend_link.STL" />
+        <mesh filename="../meshes/left_hand_index_bend_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1460,7 +1460,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_index_rota_link1.STL" />
+        <mesh filename="../meshes/left_hand_index_rota_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1469,7 +1469,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_index_rota_link1.STL" />
+        <mesh filename="../meshes/left_hand_index_rota_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1490,7 +1490,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_index_rota_link2.STL" />
+        <mesh filename="../meshes/left_hand_index_rota_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
@@ -1499,7 +1499,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_index_rota_link2.STL" />
+        <mesh filename="../meshes/left_hand_index_rota_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1520,7 +1520,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_index_rota_tip.STL" />
+        <mesh filename="../meshes/left_hand_index_rota_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -1529,7 +1529,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_index_rota_tip.STL" />
+        <mesh filename="../meshes/left_hand_index_rota_tip.STL" />
       </geometry>
     </collision>
   </link>
@@ -1548,7 +1548,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_mid_link1.STL" />
+        <mesh filename="../meshes/left_hand_mid_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1557,7 +1557,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_mid_link1.STL" />
+        <mesh filename="../meshes/left_hand_mid_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1578,7 +1578,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_mid_link2.STL" />
+        <mesh filename="../meshes/left_hand_mid_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
@@ -1587,7 +1587,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_mid_link2.STL" />
+        <mesh filename="../meshes/left_hand_mid_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1608,7 +1608,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_mid_tip.STL" />
+        <mesh filename="../meshes/left_hand_mid_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -1617,7 +1617,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_mid_tip.STL" />
+        <mesh filename="../meshes/left_hand_mid_tip.STL" />
       </geometry>
     </collision>
   </link>
@@ -1636,7 +1636,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_ring_link1.STL" />
+        <mesh filename="../meshes/left_hand_ring_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1645,7 +1645,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_ring_link1.STL" />
+        <mesh filename="../meshes/left_hand_ring_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1666,7 +1666,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_ring_link2.STL" />
+        <mesh filename="../meshes/left_hand_ring_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
@@ -1675,7 +1675,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_ring_link2.STL" />
+        <mesh filename="../meshes/left_hand_ring_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1696,7 +1696,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_ring_tip.STL" />
+        <mesh filename="../meshes/left_hand_ring_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -1705,7 +1705,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_ring_tip.STL" />
+        <mesh filename="../meshes/left_hand_ring_tip.STL" />
       </geometry>
     </collision>
   </link>
@@ -1724,7 +1724,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_pinky_link1.STL" />
+        <mesh filename="../meshes/left_hand_pinky_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1733,7 +1733,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_pinky_link1.STL" />
+        <mesh filename="../meshes/left_hand_pinky_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1754,7 +1754,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_pinky_link2.STL" />
+        <mesh filename="../meshes/left_hand_pinky_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
@@ -1763,7 +1763,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_pinky_link2.STL" />
+        <mesh filename="../meshes/left_hand_pinky_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1784,7 +1784,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_pinky_tip.STL" />
+        <mesh filename="../meshes/left_hand_pinky_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -1793,7 +1793,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/left_hand_pinky_tip.STL" />
+        <mesh filename="../meshes/left_hand_pinky_tip.STL" />
       </geometry>
     </collision>
   </link>
@@ -1827,7 +1827,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_link.STL" />
+        <mesh filename="../meshes/right_hand_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
@@ -1836,7 +1836,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_link.STL" />
+        <mesh filename="../meshes/right_hand_link.STL" />
       </geometry>
     </collision>
   </link> 
@@ -1860,7 +1860,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_thumb_bend_link.STL" />
+        <mesh filename="../meshes/right_hand_thumb_bend_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.890196078431372 0.890196078431372 0.913725490196078 1" />
@@ -1869,7 +1869,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_thumb_bend_link.STL" />
+        <mesh filename="../meshes/right_hand_thumb_bend_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1890,7 +1890,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_thumb_rota_link1.STL" />
+        <mesh filename="../meshes/right_hand_thumb_rota_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -1899,7 +1899,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_thumb_rota_link1.STL" />
+        <mesh filename="../meshes/right_hand_thumb_rota_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1920,7 +1920,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_thumb_rota_link2.STL" />
+        <mesh filename="../meshes/right_hand_thumb_rota_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.792156862745098 0.819607843137255 0.933333333333333 1" />
@@ -1929,7 +1929,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_thumb_rota_link2.STL" />
+        <mesh filename="../meshes/right_hand_thumb_rota_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1950,7 +1950,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_thumb_rota_tip.STL" />
+        <mesh filename="../meshes/right_hand_thumb_rota_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -1959,7 +1959,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_thumb_rota_tip.STL" />
+        <mesh filename="../meshes/right_hand_thumb_rota_tip.STL" />
       </geometry>
     </collision>
   </link>
@@ -1978,7 +1978,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_index_bend_link.STL" />
+        <mesh filename="../meshes/right_hand_index_bend_link.STL" />
       </geometry>
       <material name="">
         <color rgba="0.43921568627451 0.43921568627451 0.43921568627451 1" />
@@ -1987,7 +1987,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_index_bend_link.STL" />
+        <mesh filename="../meshes/right_hand_index_bend_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2008,7 +2008,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_index_rota_link1.STL" />
+        <mesh filename="../meshes/right_hand_index_rota_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -2017,7 +2017,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_index_rota_link1.STL" />
+        <mesh filename="../meshes/right_hand_index_rota_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -2038,7 +2038,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_index_rota_link2.STL" />
+        <mesh filename="../meshes/right_hand_index_rota_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
@@ -2047,7 +2047,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_index_rota_link2.STL" />
+        <mesh filename="../meshes/right_hand_index_rota_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -2068,7 +2068,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_index_rota_tip.STL" />
+        <mesh filename="../meshes/right_hand_index_rota_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -2077,7 +2077,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_index_rota_tip.STL" />
+        <mesh filename="../meshes/right_hand_index_rota_tip.STL" />
       </geometry>
     </collision>
   </link>
@@ -2096,7 +2096,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_mid_link1.STL" />
+        <mesh filename="../meshes/right_hand_mid_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -2105,7 +2105,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_mid_link1.STL" />
+        <mesh filename="../meshes/right_hand_mid_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -2126,7 +2126,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_mid_link2.STL" />
+        <mesh filename="../meshes/right_hand_mid_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
@@ -2135,7 +2135,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_mid_link2.STL" />
+        <mesh filename="../meshes/right_hand_mid_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -2156,7 +2156,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_mid_tip.STL" />
+        <mesh filename="../meshes/right_hand_mid_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -2165,7 +2165,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_mid_tip.STL" />
+        <mesh filename="../meshes/right_hand_mid_tip.STL" />
       </geometry>
     </collision>
   </link>
@@ -2184,7 +2184,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_ring_link1.STL" />
+        <mesh filename="../meshes/right_hand_ring_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -2193,7 +2193,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_ring_link1.STL" />
+        <mesh filename="../meshes/right_hand_ring_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -2214,7 +2214,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_ring_link2.STL" />
+        <mesh filename="../meshes/right_hand_ring_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
@@ -2223,7 +2223,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_ring_link2.STL" />
+        <mesh filename="../meshes/right_hand_ring_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -2244,7 +2244,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_ring_tip.STL" />
+        <mesh filename="../meshes/right_hand_ring_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -2253,7 +2253,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_ring_tip.STL" />
+        <mesh filename="../meshes/right_hand_ring_tip.STL" />
       </geometry>
     </collision>
   </link>
@@ -2272,7 +2272,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_pinky_link1.STL" />
+        <mesh filename="../meshes/right_hand_pinky_link1.STL" />
       </geometry>
       <material name="">
         <color rgba="1 1 1 1" />
@@ -2281,7 +2281,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_pinky_link1.STL" />
+        <mesh filename="../meshes/right_hand_pinky_link1.STL" />
       </geometry>
     </collision>
   </link>
@@ -2302,7 +2302,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_pinky_link2.STL" />
+        <mesh filename="../meshes/right_hand_pinky_link2.STL" />
       </geometry>
       <material name="">
         <color rgba="0.866666666666667 0.866666666666667 0.890196078431372 1" />
@@ -2311,7 +2311,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_pinky_link2.STL" />
+        <mesh filename="../meshes/right_hand_pinky_link2.STL" />
       </geometry>
     </collision>
   </link>
@@ -2332,7 +2332,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_pinky_tip.STL" />
+        <mesh filename="../meshes/right_hand_pinky_tip.STL" />
       </geometry>
       <material name="">
         <color rgba="0.698039215686274 0.698039215686274 0.698039215686274 1" />
@@ -2341,7 +2341,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://xbot_description/l3/meshes/right_hand_pinky_tip.STL" />
+        <mesh filename="../meshes/right_hand_pinky_tip.STL" />
       </geometry>
     </collision>
   </link>

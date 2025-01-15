@@ -1,69 +1,38 @@
 # STAR1 Robot URDF Description
 
-This repository contains the URDF (Unified Robot Description Format) description of the STAR1 humanoid robot.
-
-STAR1 is developed by RobotEra, a leading company in humanoid robotics. This URDF model represents RobotEra's XBot series humanoid robot.
+This repository contains the URDF description of the humanoid robot STAR1, developed by RobotEra, a leading company in humanoid robotics.
 
 ## Overview
 
-STAR1 is a humanoid robot with the following key features:
 
-- Full humanoid body structure including:
-  - Head with neck (yaw and pitch)
-  - Dual arms with 7 DOF each
-  - Waist with 3 DOF (pitch, roll, yaw)
-  - Bipedal legs with 6 DOF each
-  - Hands with end effectors
 
-## Joint Configuration
+- The robot has a total of 55 degrees of freedom (DOF), including the following parts:
+  
 
-### Head
-- Neck Yaw: ±1.57 rad
-- Neck Pitch: -0.17 to 0.54 rad
 
-### Arms (Left and Right)
-Each arm has 7 joints:
-- Shoulder Pitch: ±2.79 rad
-- Shoulder Roll: -0.24 to 1.83 rad (Left), -1.83 to 0.24 rad (Right)
-- Arm Yaw: ±2.79 rad
-- Elbow Pitch: -2.36 to 0.79 rad
-- Elbow Yaw: ±2.62 rad
-- Wrist Pitch: ±1.57 rad
-- Wrist Roll: ±1.75 rad
+  - Legs: 6 DOF × 2 = 12 DOF
+  - Arms: 7 DOF × 2 = 14 DOF
+  - Hands: 12 DOF × 2 = 24 DOF
+  - Waist: 3 DOF
+  - Head: 2 DOF
 
-### Waist
-- Waist Pitch: -1.05 to 0.09 rad
-- Waist Roll: ±0.26 rad
-- Waist Yaw: ±1.57 rad
+<img src="./images/zero_position.png" alt="zero_position" width="200">
+<img src="./images/coordinate.png" alt="coordinate" width="200">
+<img src="./images/upright.png" alt="upright" width="200">
 
-### Legs (Left and Right)
-Each leg has 6 joints:
-- Hip Roll: -0.21 to 1.22 rad (Left), -1.22 to 0.21 rad (Right)
-- Hip Yaw: -0.52 to 1.22 rad (Left), -1.22 to 0.52 rad (Right)
-- Hip Pitch: -1.57 to 1.4 rad
-- Knee: -1.1 to 1.31 rad
-- Ankle Pitch: -0.66 to 1.22 rad
-- Ankle Roll: ±0.31 rad
+- When the robot is fully upright, the joint angles of the legs are as follows:
 
-## File Structure
-- `urdf/l3_with_hand_fixedpin_xml.urdf`: Main URDF description file
-- `meshes/`: Directory containing STL files for visual and collision geometries
+| Joint Name                 | Angle (degrees) |
+|----------------------------|:---------------:|
+| left_hip_pitch_joint       |        30       |
+| left_knee_joint            |       -60       |
+| left_ankle_pitch_joint     |        30       |
+| right_hip_pitch_joint      |        30       |
+| right_knee_joint           |       -60       |
+| right_ankle_pitch_joint    |        30       |
+| Other leg joints           |         0       |
 
-## Dependencies
-- ROS (Robot Operating System)
-- xbot_description package
 
-## Usage
-The URDF can be used for:
-- Robot visualization
-- Kinematic and dynamic simulation
-- Motion planning
-- Control system development
-
-## Notes
-- All joint limits and dynamics parameters are specified in the URDF
-- Mesh files are referenced relative to the package path
-- Inertial properties are defined for all links 
 
 ## Support & Contact
 
