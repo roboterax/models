@@ -1227,34 +1227,7 @@
     <limit lower="-0.31" upper="0.31" effort="100.0" velocity="13.26" />
     <dynamics friction="0.666" />
   </joint>
-  <link name="base_rs_link">
-    <inertial>
-      <origin xyz="0.047424 0.00014285 -0.0082421" rpy="0 0 0" />
-      <mass value="0.076907" />
-      <inertia ixx="8.6659E-06" ixy="9.2769E-08" ixz="9.2769E-08" iyy="9.4298E-05" iyz="9.2769E-08" izz="9.4996E-05" />
-    </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/base_rs_link.STL" />
-      </geometry>
-      <material name="">
-        <color rgba="1 1 1 1" />
-      </material>
-    </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <mesh filename="../meshes/base_rs_link.STL" />
-      </geometry>
-    </collision>
-  </link>
-  <joint name="base_rs_joint" type="fixed">
-    <origin xyz="0.137441900948728 0.047500000000018 0.207680711884881" rpy="-2.35619449019235 0 -1.5707963267949" />
-    <parent link="base_link" />
-    <child link="base_rs_link" />
-    <axis xyz="0.0 0.0 0.0" />
-  </joint>
+ 
 
   <link name="left_arm_flange_link">
   </link> 
