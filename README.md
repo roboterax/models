@@ -67,8 +67,8 @@ For technical support or business inquiries:
 
 ## About RobotEra
 
-RobotEra is dedicated to advancing humanoid robotics technology. Our XBot series includes:
-- XBot-S: 1.2-meter tall humanoid robot
-- XBot-L: 1.65-meter tall humanoid robot
+RobotEra is dedicated to advancing humanoid robotics technology.We specialize in developing robust and versatile humanoid robots for real-world applications. 
 
-We specialize in developing robust and versatile humanoid robots for real-world applications, with a focus on reliable sim-to-real transfer capabilities. 
+## License
+
+This project is licensed under the BSD 3-Clause License - see the [LICENSE](LICENSE) file for details. 
